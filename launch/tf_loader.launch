@@ -1,0 +1,20 @@
+<launch>
+
+
+
+    <!-- 1. You must specify the tf file(yaml) -->
+    <arg name="tf_file" default="../config/tf.yaml" />
+    <arg name="param_server_tf_name" default="tf" />
+
+    <!-- 2. Loading tf file(yaml) to ros param server -->
+    <rosparam param="$(arg param_server_tf_name)"
+              file="$(arg tf_file)" />
+
+    <!-- 3. Publisher static tf  -->
+    <node name="calibration_configs_loader"
+          pkg="calibration_configs_loader"
+          type="tf_loader"
+          output="screen"
+          args="$(arg param_server_tf_name)" />
+
+</launch>

@@ -1,0 +1,70 @@
+-
+  sensor_name: "velodyne"
+  reference_sensor_name: "imu"
+  sensor_type: "lidar"
+  transform:
+    translation:
+      x: 0.810543937759
+      y: -0.307054365728
+      z: 0.802724026418
+    rotation:
+      x: -0.0074120879271
+      y: 0.00101508648397
+      z: 0.000385188269758
+      w: 0.999971940697
+-
+  sensor_name: "cam00"
+  reference_sensor_name: "imu"
+  sensor_type: "camera"
+  transform:
+    translation:
+      x: 1.14262928837
+      y: -0.329822254983
+      z: 0.740662558269
+    rotation:
+      x: -0.505733589463
+      y: 0.495857519826
+      z: -0.500271373399
+      w: 0.498083737416
+-
+  sensor_name: "cam01"
+  reference_sensor_name: "imu"
+  sensor_type: "camera"
+  transform:
+    translation:
+      x: 1.14217982114
+      y: -0.866973693749
+      z: 0.741729335246
+    rotation:
+      x: -0.495420542519
+      y: 0.510170345467
+      z: -0.501346906681
+      w: 0.492885365799
+-
+  sensor_name: "cam02"
+  reference_sensor_name: "imu"
+  sensor_type: "camera"
+  transform:
+    translation:
+      x: 1.13768186557
+      y: -0.269980938961
+      z: 0.738305724133
+    rotation:
+      x: -0.507273624958
+      y: 0.496252321895
+      z: -0.501225649781
+      w: 0.495156490856
+-
+  sensor_name: "cam03"
+  reference_sensor_name: "imu"
+  sensor_type: "camera"
+  transform:
+    translation:
+      x: 1.13904589812
+      y: -0.805486113952
+      z: 0.743779124876
+    rotation:
+      x: -0.495470992961
+      y: 0.507263744701
+      z: -0.502191194952
+      w: 0.494970698283

@@ -1,0 +1,14 @@
+<launch>
+
+
+
+  <!-- You must specify the camera intrinsics and tf files. -->
+  <arg name="cam_intrinsics_file" default="../config/cam_intrinsics.yaml" />
+  <arg name="tf_file" default="../config/tf.yaml" />
+
+  <rosparam param="cam_intrinsics"
+            file="$(arg cam_intrinsics_file)" />
+  <rosparam param="tf"
+             file="$(arg tf_file)" />
+
+</launch>

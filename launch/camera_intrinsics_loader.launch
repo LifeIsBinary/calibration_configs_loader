@@ -1,0 +1,20 @@
+<launch>
+
+
+
+    <!-- 1. You must specify the tf file(yaml) -->
+    <arg name="cam_intrinsics_file" default="../config/cam_intrinsics.yaml" />
+    <arg name="param_server_cam_intrinsics_name" default="cam_intrinsics" />
+
+    <!-- 2. Loading tf file(yaml) to ros param server -->
+    <rosparam param="$(arg param_server_cam_intrinsics_name)"
+              file="$(arg cam_intrinsics_file)" />
+
+    <!-- 3. Publisher static tf  -->
+    <node name="calibration_configs_loader"
+          pkg="calibration_configs_loader"
+          type="camera_intrinsics_loader"
+          output="screen"
+          args="$(arg param_server_cam_intrinsics_name)" />
+
+</launch>

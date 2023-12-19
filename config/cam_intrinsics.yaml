@@ -1,0 +1,90 @@
+-
+  camera_name: "FRONT_LEFT"
+  image_size:
+    width: 2304
+    height: 1536
+  camera_matrix:
+    fx: 955.792000
+    fy: 952.666000
+    cx: 1198.200000
+    cy: 382.873000
+  distortion:
+      distortion_model: "plumb_bob"
+      distortion_coefficients:
+        k1: 0.298901
+        k2: -0.135871
+        t1: 0.000081
+        t2: 0.000027
+        k3: -0.007322
+-
+  camera_name: "FRONT_RIGHT"
+  image_size:
+    width: 2304
+    height: 1536
+  camera_matrix:
+    fx: 924.279000
+    fy: 922.949000
+    cx: 1179.090000
+    cy: 385.293000
+  distortion:
+    distortion_model: "plumb_bob"
+    distortion_coefficients:
+      k1: 2.943823
+      k2: 1.226648
+      t1: -0.000100
+      t2: 0.000010
+      k3: 0.046947
+-
+  camera_name: "REAR"
+  image_size:
+    width: 2624
+    height: 1152
+  camera_matrix:
+    fx: 2064.570000
+    fy: 2071.850000
+    cx: 1278.100000
+    cy: 698.090000
+  distortion:
+    distortion_model: "plumb_bob"
+    distortion_coefficients:
+      k1: -2.591200
+      k2: 12.701412
+      t1: 0.000617
+      t2: 0.000155
+      k3: -1.719973
+-
+  camera_name: "REAR_LEFT"
+  image_size:
+    width: 2304
+    height: 1536
+  camera_matrix:
+    fx: 1016.020000
+    fy: 1010.400000
+    cx: 919.235000
+    cy: 781.890000
+  distortion:
+    distortion_model: "plumb_bob"
+    distortion_coefficients:
+      k1: 0.336276
+      k2: -0.154668
+      t1: -0.000092
+      t2: -0.000050
+      k3: -0.009774
+-
+  camera_name: "REAR_RIGHT"
+  image_size:
+    width: 2304
+    height: 1536
+  camera_matrix:
+    fx: 1008.900000
+    fy: 1005.570000
+    cx: 1425.370000
+    cy: 777.293000
+  distortion:
+    distortion_model: "plumb_bob"
+    distortion_coefficients:
+      k1: 0.295777
+      k2: -0.130237
+      t1: 0.000029
+      t2: -0.000048
+      k3: -0.006876
